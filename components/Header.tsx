@@ -6,7 +6,7 @@ type Props = {};
 
 export default function Header({}: Props) {
   return (
-    <header className="sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center p-5">
+    <header className="sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center p-5 bg-red-100 lg:bg-transparent bg-opacity-75">
       <motion.div
         initial={{
           x: -500,
@@ -65,7 +65,7 @@ export default function Header({}: Props) {
           transition={{
               duration:1.5
           }}
-           className="hidden md:inline-flex md:justify-center md:items-center">
+           className="hidden lg:inline-flex lg:justify-center lg:items-center">
         <SocialIcon
           className="cursor-pointer"
           network="email"

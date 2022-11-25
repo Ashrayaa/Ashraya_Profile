@@ -27,8 +27,8 @@ export default function WorkExperience({}: Props) {
 
       <div className="w-full -mt-24 flex space-x-5 overflow-scroll p-10 snap-x snap-mandatory">
         {/* Experience 1 */}
-        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
-          <div className="px-0 md:px-10">
+        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] h-[950px]  md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
+          <div className="p-20 md:px-10">
             <h4 className="text-xl font-light">SOFTWARE TEST ENGINEER</h4>
             <p className="font-bold text-2xl mt-1">
               Innovation Incubator Advisory | Trivandrum
@@ -66,8 +66,8 @@ export default function WorkExperience({}: Props) {
         </article>
 
         {/* Experience 2 */}
-        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
-          <div className="px-0 md:px-10">
+        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] h-[950px]  md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
+          <div className="p-20 md:px-10">
             <h4 className="text-xl font-light">QA ENGINEER</h4>
             <p className="font-bold text-2xl mt-1">
               Vspace Networks DMCC | UAE
@@ -99,8 +99,8 @@ export default function WorkExperience({}: Props) {
           </div>
         </article>
         {/* Experience 3 */}
-        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
-          <div className="px-0 md:px-10">
+        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] h-[950px]  md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
+          <div className="p-20 md:px-10">
             <h4 className="text-xl font-light">QA ENGINEER TRAINEE</h4>
             <p className="font-bold text-2xl mt-1">
             Innovation Incubator Advisory | Trivandrum

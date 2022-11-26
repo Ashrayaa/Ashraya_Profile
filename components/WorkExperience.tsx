@@ -27,16 +27,16 @@ export default function WorkExperience({}: Props) {
 
       <div className="w-full -mt-24 flex space-x-5 overflow-scroll p-10 snap-x snap-mandatory">
         {/* Experience 1 */}
-        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] h-[950px]  md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
+        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] h-[800px]  md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
           <div className="p-20 md:px-10">
             <h4 className="text-xl font-light">SOFTWARE TEST ENGINEER</h4>
-            <p className="font-bold text-2xl mt-1">
+            <p className="font-bold text-base lg:text-2xl mt-1">
               Innovation Incubator Advisory | Trivandrum
             </p>
 
             <p className="uppercase py-5 text-gray-300">Aug 2022 - Present</p>
 
-            <ul className="list-disc space-y-4 ml-5 text-lg mx-4">
+            <ul className="list-disc space-y-4 ml-5 text-sm lg:text-lg mx-4">
               <li>
                 {" "}
                 Developed Test Plans, Test Cases and Test Scenarios from
@@ -66,16 +66,16 @@ export default function WorkExperience({}: Props) {
         </article>
 
         {/* Experience 2 */}
-        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] h-[950px]  md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
+        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] h-[800px]  md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
           <div className="p-20 md:px-10">
             <h4 className="text-xl font-light">QA ENGINEER</h4>
-            <p className="font-bold text-2xl mt-1">
+            <p className="font-bold text-base lg:text-2xl mt-1">
               Vspace Networks DMCC | UAE
             </p>
 
             <p className="uppercase py-5 text-gray-300">Nov 2021 - July 2022</p>
 
-            <ul className="list-disc space-y-4 ml-5 text-lg mx-4">
+            <ul className="list-disc space-y-4 ml-5 text-sm lg:text-lg mx-4">
               <li>
                 {" "}
                 Quality Assurance and Manual, Functional Testing of Web
@@ -99,16 +99,16 @@ export default function WorkExperience({}: Props) {
           </div>
         </article>
         {/* Experience 3 */}
-        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] h-[950px]  md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
+        <article className="flex flex-col rounded-xl items-center space-y-5 flex-shrink-0 w-[500px] h-[800px]  md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-10 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
           <div className="p-20 md:px-10">
             <h4 className="text-xl font-light">QA ENGINEER TRAINEE</h4>
-            <p className="font-bold text-2xl mt-1">
+            <p className="font-bold text-base lg:text-2xl mt-1">
             Innovation Incubator Advisory | Trivandrum
             </p>
 
             <p className="uppercase py-5 text-gray-300">July 2021 - Oct 2021</p>
 
-            <ul className="list-disc space-y-4 ml-5 text-lg mx-4">
+            <ul className="list-disc space-y-4 ml-5 text-sm lg:text-lg mx-4">
               <li>
                 Working as a part of the team in developing test plans, test
                 cases and test scenarios from business requirements.

@@ -6,6 +6,8 @@ import type { NextPage } from "next";
 import About from "../components/About";
 import WorkExperience from "../components/WorkExperience";
 import Skills from "../components/Skills";
+// import Skills from "../components/Skills";
+// import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -17,28 +19,39 @@ export default function Home() {
       </Head>
 
       {/* Header */}
-      <Header />
+      <Header 
+      // socials={socials}
+      />
 
       {/* Hero */}
       <section id="hero" className="snap-start">
-        <Hero />
+        <Hero 
+        // pageInfo={pageInfo}
+        />
       </section>
 
       {/* About */}
       <section id="about" className="snap-center">
-        <About />
+        <About 
+        // pageInfo={pageInfo}
+        />
       </section>
 
       {/* Experience */}
       <section id="experience" className="snap-center">
-        <WorkExperience />
+        <WorkExperience 
+        // experiences={experiences}
+        />
       </section>
       {/* Skills */}
-      <section id="skills" className="snap-start">
+      <section id="skills" className="snap-start mt-24">
         <Skills/>
       </section>
 
       {/* Projects */}
+      {/* <section id="projects" className="snap-start">
+        <Projects/>
+      </section> */}
 
       {/* Contact Me */}
     </div>

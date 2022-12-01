@@ -20,7 +20,7 @@ export default function About({}: Props) {
     //   className="flex flex-col mt-52 relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center h-screen"
     // >
     <div className="flex flex-col items-center justify-center gap-10 lg:mb-44">
-      <h3 className="lg:-mt-4 mt-36 uppercase tracking-[20px] text-onepurple text-2xl">
+      <h3 className="lg:mt-12 mt-36 uppercase tracking-[20px] text-onepurple text-2xl">
         About
       </h3>
       {/* <motion.img
@@ -41,7 +41,7 @@ export default function About({}: Props) {
         {" "}
        
       </motion.img> */}
-      <div className="flex flex-col lg:flex-row gap-12 lg:gap-0 items-center justify-center lg:mt-24">
+      <div className="flex flex-col lg:flex-row gap-12 lg:gap-0 items-center justify-center lg:mt-12">
         <Image
           src={Profileimg1}
           alt="ashraya_image"
@@ -52,7 +52,7 @@ export default function About({}: Props) {
             Here is a little background
           </h4>
           <div className="flex flex-col gap-2 justify-items-center justify-center mx-3">
-            <p className="text-sm text-litepurple">
+            <p className="text-xs text-litepurple">
               I would like to introduce myself as an active front-end developer
               and software tester, passionate teacher, and ardent content
               writer. I worked as a software tester for past years after my
@@ -63,14 +63,14 @@ export default function About({}: Props) {
               during the testing process. Working with a team also helped me in
               developing collaboration and social skills.
             </p>
-            <p className="text-sm text-litepurple">
+            <p className="text-xs text-litepurple">
               I like to contribute my skills in the area of developing the front
               end too. I have extensive knowledge of technologies and tools
               associated with them. Above all, I have a strong ground-level
               knowledge of data structures and algorithms, database management
               systems, and software engineering.
             </p>
-            <p className="hidden lg:flex text-sm text-litepurple">
+            <p className="hidden lg:flex text-xs text-litepurple">
               In addition, I&apos;m confident that I can think at the level of a
               software product manager and have a strong ground in developing
               user stories from the business requirements. Besides all of these,
@@ -78,7 +78,7 @@ export default function About({}: Props) {
               tuition for students below my age. I like the concept of sharing
               knowledge.
             </p>
-            <p className="hidden lg:flex text-sm text-litepurple">
+            <p className="hidden lg:flex text-xs text-litepurple">
               Apart from that, I love reading books. These books could escalate
               you to the next level. Books like “Power of your subconscious
               mind” by Joseph Murphy and “ The monk who sold his Ferrari, “ by

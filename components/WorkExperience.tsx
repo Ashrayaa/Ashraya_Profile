@@ -24,6 +24,7 @@ export default function WorkExperience({}: Props) {
       {/* <h3 className="lg:-mt-12 mt-36 uppercase tracking-[20px] text-onepurple text-2xl">
         EXPERIENCE
       </h3> */}
+    
 
       <div className="w-full -mt-24 flex space-x-5 overflow-scroll p-10 snap-x snap-mandatory">
         {/* Experience 1 */}
@@ -36,7 +37,7 @@ export default function WorkExperience({}: Props) {
 
             <p className="uppercase py-5 text-gray-300">Aug 2022 - Present</p>
 
-            <ul className="list-disc space-y-2 ml-5 text-sm lg:text-xs mx-4">
+            <ul className="list-disc space-y-2 ml-5 text-sm lg:text-lg mx-4">
               <li>
                 {" "}
                 Developed Test Plans, Test Cases and Test Scenarios from
@@ -75,7 +76,7 @@ export default function WorkExperience({}: Props) {
 
             <p className="uppercase py-5 text-gray-300">Nov 2021 - July 2022</p>
 
-            <ul className="list-disc space-y-2 ml-5 text-sm lg:text-xs mx-4">
+            <ul className="list-disc space-y-2 ml-5 text-sm lg:text-lg mx-4">
               <li>
                 {" "}
                 Quality Assurance and Manual, Functional Testing of Web
@@ -103,12 +104,12 @@ export default function WorkExperience({}: Props) {
           <div className="p-20 md:px-10">
             <h4 className="text-xl font-light">QA ENGINEER TRAINEE</h4>
             <p className="font-bold text-base lg:text-2xl mt-1">
-            Innovation Incubator Advisory | Trivandrum
+              Innovation Incubator Advisory | Trivandrum
             </p>
 
             <p className="uppercase py-5 text-gray-300">July 2021 - Oct 2021</p>
 
-            <ul className="list-disc space-y-2 ml-5 text-sm lg:text-xs mx-4">
+            <ul className="list-disc space-y-2 ml-5 text-sm lg:text-lg mx-4">
               <li>
                 Working as a part of the team in developing test plans, test
                 cases and test scenarios from business requirements.
@@ -128,7 +129,6 @@ export default function WorkExperience({}: Props) {
             </ul>
           </div>
         </article>
-
       </div>
     </motion.div>
   );

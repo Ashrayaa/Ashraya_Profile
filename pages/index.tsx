@@ -6,7 +6,7 @@ import type { NextPage } from "next";
 import About from "../components/About";
 import WorkExperience from "../components/WorkExperience";
 import Skills from "../components/Skills";
-// import Skills from "../components/Skills";
+import Contact from "../components/Contact";
 // import Projects from "../components/Projects";
 
 export default function Home() {
@@ -54,6 +54,9 @@ export default function Home() {
       </section> */}
 
       {/* Contact Me */}
+      <section id="contactme" className="snap-start mt-24">
+        <Contact/>
+      </section>
     </div>
   );
 }

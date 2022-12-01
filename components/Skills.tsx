@@ -33,14 +33,14 @@ export default function Skills({}: Props) {
         hover over a skill for current profieciency
       </h3>
 
+     
       <div className="grid grid-cols-3 gap-4 mt-20 lg:mt-32">
-        
 
         <div className="group relative flex cursor-pointer">
           <Image
             src={Html}
             alt="Image"
-            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-24 xl:h-24 filter group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
           />
           <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-20 w-32 md:w-28 md:h-28 xl:w-40 xl:h-24 rounded-full z-0">
             <div className="flex items-center justify-center h-full">
@@ -55,7 +55,7 @@ export default function Skills({}: Props) {
           <Image
             src={Css}
             alt="Image"
-            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-24 xl:h-24 filter group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
           />
           <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-20 w-32 md:w-28 md:h-28 xl:w-40 xl:h-24 rounded-full z-0">
             <div className="flex items-center justify-center h-full">
@@ -70,7 +70,7 @@ export default function Skills({}: Props) {
           <Image
             src={Tailwind}
             alt="Image"
-            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-24 xl:h-24 filter group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
           />
           <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-20 w-32 md:w-28 md:h-28 xl:w-40 xl:h-24 rounded-full z-0">
             <div className="flex items-center justify-center h-full">
@@ -85,7 +85,7 @@ export default function Skills({}: Props) {
           <Image
             src={Js}
             alt="Image"
-            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-24 xl:h-24 filter group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
           />
           <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-20 w-32 md:w-28 md:h-28 xl:w-40 xl:h-24 rounded-full z-0">
             <div className="flex items-center justify-center h-full">
@@ -100,7 +100,7 @@ export default function Skills({}: Props) {
           <Image
             src={Reactjs}
             alt="Image"
-            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-24 xl:h-24 filter group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
           />
           <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-20 w-32 md:w-28 md:h-28 xl:w-40 xl:h-24 rounded-full z-0">
             <div className="flex items-center justify-center h-full">
@@ -110,12 +110,11 @@ export default function Skills({}: Props) {
             </div>
           </div>
         </div>
-
         <div className="group relative flex cursor-pointer">
           <Image
             src={Github}
             alt="Image"
-            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-24 xl:h-24 filter group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
           />
           <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-20 w-32 md:w-28 md:h-28 xl:w-40 xl:h-24 rounded-full z-0">
             <div className="flex items-center justify-center h-full">
@@ -130,7 +129,7 @@ export default function Skills({}: Props) {
           <Image
             src={Gitlab}
             alt="Image"
-            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-24 xl:h-24 filter group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
           />
           <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-20 w-32 md:w-28 md:h-28 xl:w-40 xl:h-24 rounded-full z-0">
             <div className="flex items-center justify-center h-full">
@@ -145,7 +144,7 @@ export default function Skills({}: Props) {
           <Image
             src={Jira}
             alt="Image"
-            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-24 xl:h-24 filter group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
           />
           <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-20 w-32 md:w-28 md:h-28 xl:w-40 xl:h-24 rounded-full z-0">
             <div className="flex items-center justify-center h-full">
@@ -160,7 +159,7 @@ export default function Skills({}: Props) {
           <Image
             src={Postman}
             alt="Image"
-            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-24 xl:h-24 filter group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full object-cover w-20 h-20 mx-6 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
           />
           <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-20 w-32 md:w-28 md:h-28 xl:w-40 xl:h-24 rounded-full z-0">
             <div className="flex items-center justify-center h-full">

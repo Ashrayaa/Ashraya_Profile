@@ -18,7 +18,7 @@ export default function WorkExperience({}: Props) {
       }}
       className="h-screen flex relative overflow-hidden flex-col text-left max-w-full px-10 justify-evenly mx-auto top-24 items-center"
     >
-      <h3 className="uppercase 2xl:-mt-72 mb-6 px-4 tracking-[20px] text-onepurple text-2xl">
+      <h3 className="uppercase  mb-6 px-4 tracking-[20px] text-onepurple text-2xl">
         Experience
       </h3>
       {/* <h3 className="lg:-mt-12 mt-36 uppercase tracking-[20px] text-onepurple text-2xl">
@@ -26,7 +26,7 @@ export default function WorkExperience({}: Props) {
       </h3> */}
     
 
-      <div className="w-full -mt-12 xl:-mt-0 md:-mt-80 flex space-x-5 overflow-scroll p-10 snap-x snap-mandatory">
+      <div className="w-full -mt-12 xl:-mt-0 2xl:-mt-24 md:-mt-80 flex space-x-5 overflow-scroll p-10 snap-x snap-mandatory">
         {/* Experience 1 */}
         <article className="flex flex-col border rounded-xl items-center space-y-5 flex-shrink-0 w-[320px] h-[600px]  md:w-[600px] md:h-[585px] snap-center bg-[#0a0909] text-white p-4 hover:opacity-100 opacity-80 cursor-pointer transition-opacity duration-200 overflow-hidden">
           <div className="p-2 md:px-10">

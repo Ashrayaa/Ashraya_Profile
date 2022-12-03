@@ -60,7 +60,7 @@ export default function About({}: Props) {
           alt="ashraya_image"
           className="flex-shrink-0 w-48 h-48 rounded-full object-cover md:rounded-xl md:w-60 md:h-60 xl:w-[400px] xl:h-[400px] lg:-mr-32 lg:ml-48"
         />
-        <div className="md:px-10 flex flex-col items-center justify-center gap-6 mx-6 lg:mx-32">
+        <div className="md:px-10 flex flex-col items-center justify-center gap-4 mx-6 lg:mx-32">
           <h4 className="lg:text-4xl text-2xl font-semibold">
             Here is a little background
           </h4>

@@ -76,7 +76,7 @@ export default function About({}: Props) {
               during the testing process. Working with a team also helped me in
               developing collaboration and social skills.
             </p>
-            <p className="text-sm text-litepurple">
+            <p className="hidden lg:flex text-sm text-litepurple">
               I like to contribute my skills in the area of developing the front
               end too. I have extensive knowledge of technologies and tools
               associated with them. Above all, I have a strong ground-level

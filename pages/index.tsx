@@ -38,11 +38,11 @@ export default function Home() {
       </section>
 
       {/* Experience */}
-      <section id="experience" className="snap-center">
+      {/* <section id="experience" className="snap-center">
         <WorkExperience 
         // experiences={experiences}
         />
-      </section>
+      </section> */}
       {/* Skills */}
       <section id="skills" className="snap-start mt-24">
         <Skills/>

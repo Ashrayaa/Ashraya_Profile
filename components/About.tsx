@@ -66,6 +66,21 @@ export default function About({}: Props) {
           </h4>
           <div className="flex flex-col gap-2 justify-items-center justify-center mx-3">
             <p className="text-sm text-litepurple">
+              Follow your heart and the rest will fall into place. The only
+              true limitation is the one you set for yourself. My name is
+              Ashraya. I am a passionate front-end web developer, specifically,
+              React.js. I became fascinated by the endless creative
+              possibilities and the ability to build interactive and visually
+              appealing web applications. I love using React to build
+              user-friendly and interactive web applications. I threw myself
+              into learning and improving my skills, and I am now a passionate
+              front-end web developer with a strong foundation in HTML, CSS, and
+              JavaScript. I am constantly learning and staying up-to-date with
+              the latest technologies and best practices in the industry, and I
+              am eager to bring my enthusiasm and dedication to any project or
+              team I am a part of.
+            </p>
+            {/* <p className="text-sm text-litepurple">
               I would like to introduce myself as an active front-end developer
               and software tester, passionate teacher, and ardent content
               writer. I worked as a software tester for past years after my
@@ -75,8 +90,8 @@ export default function About({}: Props) {
               product in detail and thus ensure that user expectations were met
               during the testing process. Working with a team also helped me in
               developing collaboration and social skills.
-            </p>
-            <p className="hidden lg:flex text-sm text-litepurple">
+            </p> */}
+            {/* <p className="hidden lg:flex text-sm text-litepurple">
               I like to contribute my skills in the area of developing the front
               end too. I have extensive knowledge of technologies and tools
               associated with them. Above all, I have a strong ground-level
@@ -97,7 +112,7 @@ export default function About({}: Props) {
               mind” by Joseph Murphy and “ The monk who sold his Ferrari, “ by
               Robin Sharma fascinated me for a long time. And yes, I do invest
               my time in being with books.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

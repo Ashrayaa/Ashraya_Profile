@@ -26,7 +26,7 @@ export default function About({}: Props) {
         About
       </h3>
 
-      <button>
+      {/* <button>
         <Link
           href="/resume"
           className="border border-litepurple bg-litepurple text-white text-sm font-semibold rounded-2xl p-4 hover:text-litepurple hover:bg-white -mb-14"
@@ -34,7 +34,7 @@ export default function About({}: Props) {
           {" "}
           VIEW RESUME
         </Link>
-      </button>
+      </button> */}
 
       {/* <motion.img
         initial={{
